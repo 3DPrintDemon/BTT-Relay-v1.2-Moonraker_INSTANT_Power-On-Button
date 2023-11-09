@@ -76,6 +76,13 @@ Timer:2
 
 You need these two pins as the BTT relay firmware requires a reset command while the `PSon` pin is high. If this is not the case & the `PSon` pin is low (off) & you hit reset the relay power up but trip out again after 8 seconds. This is normal. The `PSon` pin must be high (on) when the reset is pressed. The PowerUp physical button will activate both GPIO pins together when pushed meaning you only need a single push of the physical button to control both pins & re-power the printer instanly.
 
+Lastly to auto shutdown the printer after a print has finished add this to your `macros.cfg` file & call `M81` in your `Print_End` macro.
+```
+[gcode_macro M81]
+gcode:
+ {action_call_remote_method("set_device_power",device="Printer Power",state="off")}
+```
+
 ## Extra Bonus...
 As an added bonus you can add a second physical button to a 4th GPIO pin to use as a physical Emergency Stop button!
 
