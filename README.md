@@ -28,7 +28,7 @@ This link is far more helpful!
 
 - https://www.youtube.com/watch?v=5wJff-hY90s
 
-Then you will need to set your instance to be able to control your Pi’s GPIO pins as mentioned previously in this document. You need to then choose which 2 pins to use to control the relay, connect both of them to your chosen GPIO pins with a ground pin. Then add your physical momentary switch to a 3rd Gpio pin & another ground pin. Then mount it somewhere of your choice on your printer.
+Then you will need to set your instance to be able to control your Pi’s GPIO pins as mentioned previously in this document. You need to then choose which 2 pins to use to control the relay, connect both of them to your chosen GPIO pins along with a single ground pin to the PSon plug on the relay board. Then add your physical momentary switch to a 3rd Gpio pin & another ground pin. Then mount it somewhere of your choice on your printer.
 
 Then you need to SSH into your pi & run:
 ```
