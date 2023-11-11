@@ -38,7 +38,8 @@ sudo nano /boot/config.txt
 ```
 Then near the bottom of the file at the end of the first section & in the space BEFORE the start of the `[CM4]` section paste in:
 ```
-gpio=16=op,dh # Example GPIO pin, choose a GPIO pin to control power device’s PSon pin
+# Example GPIO pin, choose a GPIO pin to control power device’s PSon pin
+gpio=16=op,dh
 ```
 Then use the commands at the bottom of the screen to exit & save the file.
 
