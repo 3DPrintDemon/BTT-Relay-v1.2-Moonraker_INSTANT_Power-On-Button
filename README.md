@@ -18,6 +18,9 @@ serial: /tmp/klipper_host_mcu
 
 Example below for using the BTT Power Relay v1.2
 
+Relay Mounting STL here:
+https://www.printables.com/model/647656-btt-relay-v12-frame-mount-box-case-4020-bigtreetec
+
 See the install instructions for this product on the BTT Github! 
 
 - https://github.com/bigtreetech/BIGTREETECH-Relay-V1.2
