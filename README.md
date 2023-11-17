@@ -1,3 +1,5 @@
+### If you like my work & would like to say thank you & support my efforts please head on over to https://www.buymeacoffee.com/3dprintdemon
+
 # BTT_Relay_v1.2_Moonraker_Instant_Power_On_Button_for_Klipper
 How to add a physical power on button that needs only a single push to re-power your Klipper Printer using the BTT Power Relay v1.2!
 Normally with this relay in the power off state you need to switch back on the `Printer Power` GPIO pin then toggle the `Reset Power` pin. This method below requires only one quick push of a physical momentary button mounted on the printer or enclouser becuase Moonraker will now activate both pins at the same time for you! Magic!
