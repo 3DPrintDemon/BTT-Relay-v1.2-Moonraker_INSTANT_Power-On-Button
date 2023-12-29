@@ -1,3 +1,5 @@
+[<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
+
 ### If you like my work & would like to say thank you & support my efforts please head on over to https://ko-fi.com/3dprintdemon
 
 # BTT_Relay_v1.2_Moonraker_Instant_Power_On_Button_for_Klipper
@@ -103,3 +105,5 @@ pin: gpio26 # Example GPIO pin, you can choose your own here
 on_press:
   {% do call_method("printer.emergency_stop") %}
 ```
+
+[<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_KLIPPER_Essentials/assets/122202359/6538fcbf-b866-4e33-81c6-f9c95428bca4">](https://ko-fi.com/3dprintdemon)
