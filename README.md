@@ -1,4 +1,4 @@
-### If you like my work & would like to say thank you & support my efforts please head on over to https://www.buymeacoffee.com/3dprintdemon
+### If you like my work & would like to say thank you & support my efforts please head on over to https://ko-fi.com/3dprintdemon
 
 # BTT_Relay_v1.2_Moonraker_Instant_Power_On_Button_for_Klipper
 How to add a physical power on button that needs only a single push to re-power your Klipper Printer using the BTT Power Relay v1.2!
